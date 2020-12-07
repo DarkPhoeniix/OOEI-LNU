@@ -1,4 +1,10 @@
-﻿/* BODY */
+﻿html {
+    scroll-behavior: smooth;
+}
+
+
+/* BODY */
+
 
 body
 {
@@ -73,7 +79,6 @@ header {
 /* INTRO */
 
 
-
 .intro {
     display: flex;
     flex-direction: column;
@@ -103,7 +108,6 @@ header {
 
 .button {
     display: inline-block;
-    vertical-align: top;
     padding: 8px 30px;
     margin: auto;
     
@@ -124,3 +128,132 @@ header {
     color: #333;
     transition: background .2s linear, color .2s linear;
 }
+
+
+/* SECTION 2   TOOLS */
+
+
+.section_tools {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.tools {
+    padding: 3% 15%;
+    font-size: 20px;
+    text-align: justify;
+    color: #1d1d1d;    
+}
+
+.tools_header {
+    margin: 2% 0 5% 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+hr {
+    margin: 2% 0;
+    position: inherit;
+    background-color: #d0d0d0;
+}
+
+.tools_about_browser,
+.tools_about_ide,
+.tools___ {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 75%;
+    float: left;
+    margin: 12px 0;
+}
+
+.tools_about_ide {
+    float: right;
+}
+
+.img_chrome,
+.img_brackets, 
+.img___ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: auto;
+}
+
+
+/* INFO */
+
+
+.section_info {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.info {
+    padding: 3% 7%;
+    font-size: 20px;
+    text-align: justify;
+    color: #1d1d1d; 
+}
+
+.info_header {
+    margin: 2% 0 5% 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+.img_html,
+.img_css,
+.img_js,
+.img_bt {
+    display: block;
+    height: 30vh;
+    width: auto;
+}
+
+.info_html,
+.info_css,
+.info_js,
+.info_bt {
+    display: flex;
+    height: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
